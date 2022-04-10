@@ -1,0 +1,57 @@
+//Muhammad Usama
+//Fa19-BCS-010
+                                                //Question 1
+// let a=[2,3,6,1,7];
+// let b=0;
+//   let y =parseInt(a[1]);
+//   for(let i=0; i<y; i++)
+//   {
+//    b=a[1];
+//   }
+//   console.log((y+1), b);
+                                                 //Question 2
+// var a = 23617,
+//     b = a.toString().split('').map(Number).reduce(function (x, y) {
+//             return x + y;
+//         }, 0);
+// console.log(b);
+                                                  //Question 3
+// let a = [2,3,6,1,7];
+//   let b = 0;
+//   for (let i = 0; i <a.length; i++) {
+//     if (a[i] % 2 === 0){ 
+//         b = b + a[i];
+//     }
+//   } 
+//  console.log(b);
+                                                   //Question 4
+//  for(let i=0;i<=10;i++)
+// {
+//     console.log("cube is "+(i*i*i));
+//     console.log("square is "+(i*i)); 
+// }
+
+
+ //Question 5(a)
+// function vowel(str)
+// {
+//     var a=str.split(",")
+//     console.log(a[0])
+// }
+// vowel("a,e,i,o,u")
+
+//5(b)
+
+// function rev(a)
+// {
+// 	a = a + "";
+// 	return a.split("").reverse().join("");
+// }
+// console.log(Number(rev(123456)));
+
+//Question 8
+function alphabet(str)
+  {
+return str.split('').sort().join('');
+  }
+console.log(alphabet("comsats"));
